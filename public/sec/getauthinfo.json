@@ -1,0 +1,19 @@
+{
+"commun": {
+	"statut": "nok",
+	"raison": "niv_auth_insuff",
+	"action": "",
+	"origine": "SAS"
+},
+"chgtnivauth": {
+	"status": "ok",
+	"list_proc": [
+		{
+			"type_proc": "authniv2",
+			"priorite": 1
+		}
+	],
+	"cible": 300,
+	"courant": 0
+}
+}

@@ -1,0 +1,958 @@
+/*==============================
+======== Fiches Produit ========
+==============================*/
+
+
+/* Hero */
+
+.hero-reborn .hr-hero {
+  margin: 7% 0 5%;
+}
+.hero-reborn .btn-hero {
+  margin-top: 8%;
+}
+.hr-hero-smart {
+  display: none;
+}
+.picto-play {
+  top: 60px;
+}
+
+
+
+/* Solutions */
+
+#espace-bulle h3 {
+  margin: 0;
+}
+
+
+
+/* Corps de la page */
+
+.narrow-box {
+  height: 0;
+  padding: 30px 2.8% 0;
+}
+.wrapper .arrow-list,
+.content_p .red-bull {
+  padding-left: 20px;
+}
+
+
+/* Petite infobulle apparaissant au survol du texte */
+
+.infobulle span {
+  display: none;
+  transition: all 1s ease;
+}
+.infobulle:hover span,
+.infobulle:focus span {
+  display: inline;
+  position: absolute;
+  background-color: #fff;
+  font-size: .8em;
+  line-height: 1.4;
+  z-index: 500;
+  width: 300px;
+  border: 1px solid grey;
+  padding: 8px 16px;
+  text-align: justify;
+  margin: 28px 0 0 0;
+}
+
+
+
+/* Solutions */
+
+.service-container .chevron,
+.hr-grey-smart {
+  display: none;
+}
+
+
+
+/* Gros Toggle Gris */
+
+.toggle-atouts-fp {
+  width: 100%;
+  background-color: #f8f8f8;
+  border: 0;
+  padding: 40px 3.3%;
+}
+
+.toggle-atouts-fp h3 {
+  width: 82%;
+  max-width: 740px;
+  padding: 16px 0 0 4.2%;
+  text-align: left;
+}
+.toggle-atouts-fp .two-lines {
+  padding-top: 0;
+}
+.toggle-atouts-fp img.chevron-noir {
+  margin-top: 55px;
+  transition: .3s;
+}
+.toggle-atouts-fp img.picto {
+  transition: .6s;
+}
+.hr-grey-toggle {
+  height: 2px;
+  background-color: #f0f0f0;
+  margin: 0 0 20px;
+}
+.toggle-atouts-fp .content-toggle {
+  width: 84%;
+  padding-right: 6.5%;
+  font-size: 1.25em;
+}
+.toggle-atouts-fp .content-toggle ul {
+  padding-left: 30px;
+}
+.toggle-atouts-fp .content-toggle ul li {
+  list-style-image: url(../images/chevron-grey.png);
+  margin-bottom: 20px;
+}
+.toggle-atouts-fp .content-toggle ul li ul li {
+  list-style: circle;
+  margin: 0;
+}
+.toggle-atouts-fp .content-toggle ul li span {
+  display: block;
+  margin-bottom: 10px;
+}
+.toggle-atouts-fp.active {
+  padding: 40px 3.3% 50px;
+}
+.toggle-atouts-fp.active .picto {
+  margin-top: 10%;
+}
+.toggle-atouts-fp.active .chevron-noir {
+  transform: rotate(180deg);
+}
+
+
+
+/* Blocs bas de page */
+
+.espace-lien-right {
+  height: 200px;
+  width: 43%;
+  padding: 23px 0;
+  background-color: #4d7899;
+  color: #fff;
+  margin: 60px 0 30px;
+}
+.espace-lien-right img {
+  max-width: 145px;
+  margin-left: 7%;
+}
+.espace-lien-right p {
+  width: 54%;
+  margin: 0 4% 20px;
+}
+.espace-lien-right a {
+  margin-right: 7%;
+}
+.simulink {
+  width: 50%;
+  padding: 40px 0 30px;
+  background-color: #f7f7f7;
+  color: #2f393f;
+  margin: 60px 0 0;
+}
+.simulink.pei-perco {
+  width: 56%;
+}
+.simulink h2 {
+  text-align: left;
+  margin: 0 7% 0 0;
+}
+.simulink p {
+  margin: 10px 7% 0 0;
+}
+/* simulateur */
+.lien-simulateur {
+  padding: 70px 20px;
+  background: transparent;
+}
+.lien-simulateur > a {
+  width: 320px;
+  margin-right: 0;
+  color: #444;
+}
+.lien-simulateur > a .titre-lien {
+  margin-bottom: 5px;
+  font-size: 30px
+}
+.lien-simulateur > a .blockDesc {
+  display: block;
+  font-size: 13px
+}
+.lien-simulateur > * {
+  float: left;
+}
+.lien-simulateur > img {
+  max-width: 145px;
+  margin: 12px 25px 0 0;
+}
+
+
+
+
+/* Pages Soeurs */
+
+#main_content_1 #bottom-content,
+#main_content_1 #bottom-content li ul {
+  padding-left: 0;
+}
+
+
+
+/* Au Quotidien -> A Distance -> Secure Access */
+
+.subscribe .left {
+  width: 54%;
+  margin-right: 3%;
+}
+.subscribe .right {
+  width: 43%;
+}
+.links img {
+  border-bottom: 2px solid #fff;
+}
+.links img:hover,
+.links img:focus {
+  border-bottom: 2px solid #ed1a3a;
+  opacity: 0.8;
+}
+
+
+/* Au Quotidien -> Encaissement -> Facture par virements */
+
+.schema-facture-virement {
+  background: url(../images/au-quotidien-facture-par-virement-schema.png) no-repeat;
+  width: 640px;
+  height: 823px;
+  margin: 0 auto;
+}
+
+
+/* Au Quotidien -> International  */
+
+#sgPlus.bulb {
+    background-position: 69.5px center, 38px center;
+    background-image: url(../images/collapserBulb.png), url(../images/circleBlue92.png);
+}
+
+#sgPlus {
+    padding-left: 200px;
+    background-position: 77.5px center, 30px center;
+    background-repeat: no-repeat, no-repeat;
+    background-image: url(../images/collapserPlus.png), url(../images/circleBlue.png);
+    margin-bottom: 40px;
+}
+
+
+.sgPlusul { list-style-type: none; }
+
+#sgPlus h3 {
+  font-size: 28px;
+  color: #4d7899;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-weight: normal;
+}
+
+#sgPlus p { line-height: 36px; }
+
+ .clearPad { padding: 0; }
+
+/* Responsive Tablet */
+
+@media only screen and (max-width: 960px) {
+  /* Haie R'Eau */
+  .hero {
+    height: 340px;
+  }
+  .hero img,
+  .insert .hr-hero,
+  .insert .mini-grey-txt span,
+  .dspn {
+    display: none;
+  }
+  .hero-brexit .insert .hr-hero, .hero-brexit .insert .mini-grey-txt span {
+    display: inline;
+  }
+  .hero__content .insert {
+    height: 100%;
+  }
+  .hero-reborn .insert h1 {
+    margin: 36% 0 0;
+  }
+  .hero-brexit .hero-reborn .insert h1 {
+    margin: 13% 0 0;
+  }
+  .hero-reborn .insert .mini-grey-txt {
+    position: absolute;
+    clear: left;
+    width: 70%;
+    max-width: 250px;
+    top: initial;
+    bottom: 16%;
+  }
+  .insert .hr-hero-smart {
+    display: inline;
+    margin: 28% 0 6% 0;
+  }
+  .hero-brexit .insert .hr-hero-smart {
+    display: none;
+  }
+
+  /* Backgroundz HERO -> financement::activite */
+  .hero-affacturage {
+    background: url(../images/financement-affacturage-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-credit-treso {
+    background: url(../images/financement-credit-tresorerie-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-renseignement {
+    background: url(../images/financement-renseignement-commercial-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-cice {
+    background: url(../images/financement-cice-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-cir {
+    background: url(../images/financement-cir-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-escompte {
+    background: url(../images/financement-escompte-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-facilite-caisse {
+    background: url(../images/financement-facilite-de-caisse-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-facture-demande {
+    background: url(../images/financement-facture-demande-hero-smart.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> financement::investissements */
+  .hero-automobile {
+    background: url(../images/financement-automobile-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-bail-immo {
+    background: url(../images/financement-credit-bail-immobilier-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-immob {
+    background: url(../images/financement-credit-immobilier-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-bail-mob {
+    background: url(../images/financement-credit-bail-mobilier-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-classique {
+    background: url(../images/financement-credit-classique-hero-smart.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> financement::domestique */
+  .hero-caution {
+    background: url(../images/caution-hero-smart.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> au-quotidien::a-distance */
+  .hero-secure-access {
+    background: url(../images/secure-access-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-sogecashnet {
+    background: url(../images/sogecash-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-appli-sgn {
+    background: url(../images/au-quotidien-sogecashnet-hero-smart.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> au-quotidien::encaissement */
+  .hero-sur-internet {
+    background: url(../images/au-quotidien-sogenactif-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-cartes {
+    background: url(../images/au-quotidien-cartes-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-facture-carte {
+    background: url(../images/au-quotidien-facture-par-carte-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-facture-virement {
+    background: url(../images/au-quotidien-facture-virement-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-cheque {
+    background: url(../images/au-quotidien-cheque-hero-smart.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> au-quotidien::paiements */
+  .hero-virement {
+    background: url(../images/au-quotidien-virements-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-virement-internationaux {
+    background: url(../images/au-quotidien-virements-internationaux-hero-640.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> international */
+  .hero-prospectez {
+    background: url(../images/international-prospectez-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-remportez {
+    background: url(../images/international-remportez-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-financez {
+    background: url(../images/international-financer-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-securisez {
+    background: url(../images/international-securiser-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-solutions {
+    background: url(../images/international-solutions-hero-smart.jpg) no-repeat center top;
+  }
+    .hero-brexit {
+    background: url(../images/international-brexit-hero-smart.jpg) no-repeat center top;
+  }
+
+    /* Backgroundz HERO -> placements */
+  .hero-mandat {
+    background: url(../images/placements-gestion-sous-mandat-hero-smart.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> motiver-vos-salaries */
+  .hero-pei {
+    background: url(../images/motiver-vos-salaries-pei-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-perco {
+    background: url(../images/motiver-vos-salaries-perco-retraite-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-palissandre {
+    background: url(../images/motiver-vos-salaries-palissandre-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-complementaire {
+    background: url(../images/motiver-vos-salaries-complementaire-sante-collective-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-rdd {
+  	background: url(../images/assurance-responsabilite-dirigeants-hero-smart-640.png) no-repeat center top;
+  }
+  .hero-indemnite {
+    background: url(https://static.societegenerale.fr/ENT/EIE2015/motiver-vos-salaries/_images/assurance-responsabilite-dirigeants-hero-smart.jpg) no-repeat center top;
+  }
+
+
+
+
+  /* Corps de la page */
+  .narrow-box {
+    width: 84%;
+    height: 50px;
+  }
+  .wrapper {
+    padding: 0 13.7%;
+  }
+  .wrapper h3 {
+    margin-top: 20px;
+  }
+
+  /* Solutions */
+  .service-container {
+    cursor: pointer;
+    margin-top: 56px;
+  }
+  .service-container div {
+    margin: 0;
+  }
+  .service-container .w20p {
+    width: 80px;
+  }
+  .service-container .content-toggle {
+    display: none;
+    clear: left;
+    margin-bottom: 25px;
+  }
+  .red-bull {
+    margin-top: 0;
+    padding-top: 6px;
+  }
+  .service-container .picto {
+    width: 80px;
+    margin-bottom: 25px;
+  }
+  .service-container .new-charte {
+    width: 100% !important;
+  }
+  .service-container h4 {
+    max-width: 454px;
+    padding: 24px 0 0 110px;
+  }
+  .service-container h4.two-lines {
+    padding-top: 4px;
+  }
+  .service-container div+div {
+    width: 100%;
+    float: none;
+  }
+  .service-container .chevron {
+    display: block;
+    margin: 28px 5px 0 0;
+    transition: 0.3s;
+  }
+  .service-container .active .chevron {
+    transform: rotate(180deg);
+  }
+  .hr-grey-smart {
+    display: block;
+    width: 100%;
+    background-color: #f0f0f0;
+  }
+
+  /* Gros Toggle Gris */
+  .toggle-atouts-fp .picto {
+    width: 74px;
+  }
+  .toggle-atouts-fp {
+    padding: 30px 3.3% 6px;
+  }
+  .toggle-atouts-fp h3 {
+    width: 70%;
+    padding: 4px 0 0 2%;
+  }
+  .toggle-atouts-fp .two-lines {
+    padding-top: 0;
+    margin-top: 8px;
+  }
+  .toggle-atouts-fp img.chevron-noir {
+    margin-top: 34px;
+  }
+  .toggle-atouts-fp.active {
+    padding: 20px 3.3%;
+  }
+
+  /* Pages Soeurs */
+  .focus-row h3 {
+    text-align: left;
+  }
+  #main_content_1 #bottom-content {
+    width: 100%;
+    background: none;
+  }
+  #main_content_1 #bottom-content li {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0 40px;
+  }
+  #main_content_1 #bottom-content li.first-li {
+    margin-left: 0;
+  }
+  #main_content_1 ul li ul li {
+    border: none;
+  }
+  #main_content_1 #bottom-content li ul li {
+    float: left;
+    clear: none;
+    width: 40%;
+    margin: 0 10% 0 0;
+    padding: 8px 0;
+  }
+  #main_content_1 #bottom-content li ul li a {
+    text-decoration: underline;
+  }
+  #main_content_1 #bottom-content li ul li.first-li-smart {
+    float: none;
+    width: 60%;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  #main_content_1 #bottom-content li ul li.first-li-smart span {
+    font-size: 1em;
+  }
+  #main_content_1 #bottom-content li ul li.first-li-smart br {
+    display: none;
+  }
+  #main_content_1 #bottom-content li ul .hr-red-mob {
+    display: block;
+    float: left;
+    width: 10.4%;
+    margin: 6px 89% 10px 0;
+    height: 3px;
+    background-color: #ed1b3b;
+  }
+  .duplicate {
+    display: list-item;
+  }
+  #main_content_1 #bottom-content li#mb0-smart {
+    margin-bottom: 0;
+  }
+  #main_content_1 #bottom-content li ul li+li:hover,
+  #main_content_1 #bottom-content li ul li+li:focus {
+    background: none;
+  }
+  #main_content_1 #bottom-content li ul li.last-bottom-left:hover,
+  #main_content_1 #bottom-content li ul li.last-bottom-left:focus {
+    border: 0;
+  }
+
+  /* Au Quotidien -> A Distance -> Secure Access */
+  .subscribe .right {
+    width: 53%;
+  }
+  .subscribe .left,
+  .subscribe .right {
+    min-width: 370px;
+  }
+
+  /* Espace lien */
+  .espace-lien-right {
+    float: none;
+    display: inline-block !important;
+    height: inherit !important;
+    margin: 15px 0 30px;
+    width: 100%;
+    padding: 10px !important;
+  }
+  .lien-simulateur > img {
+    margin-left: 70px;
+  }
+}
+
+
+/* Responsive Smartphone */
+@media only screen and (max-width: 720px) {
+  .wrapper h3 {
+    line-height: 1.1em;
+  }
+  .hr-red {
+    width: 12%;
+  }
+  .toggle-atouts-fp {
+    padding: 20px 3.3%;
+  }
+  .toggle-atouts-fp.active .picto {
+    margin-top: 0;
+  }
+  .toggle-atouts-fp h3 {
+    padding: 4px 0 0 6%;
+    font-size: 1.1em;
+  }
+  .content-toggle {
+    width: 100%;
+    padding: 0;
+    margin: 30px 0 0;
+  }
+
+  /* Simulateur */
+  .lien-simulateur a > .titre-lien {
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 30px;
+    display: block;
+  }
+  .lien-simulateur a {
+    width: 250px;
+  }
+  .lien-simulateur > img {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    font-size: 0.9em;
+  }
+
+  /* Haie R'Eau */
+  .hero {
+    height: 340px;
+  }
+.hero-brexit .insert .hr-hero, .hero-brexit .insert .mini-grey-txt span {
+    display: none;
+  }
+  .hero__content .insert {
+    height: 46%;
+  }
+  .hero-reborn .insert .mini-grey-txt {
+    width: 86%;
+    max-width: 100%;
+    bottom: 24%;
+    margin-left: 7%;
+  }
+  .insert .hr-hero-smart {
+    display: none;
+  }
+  .hero-reborn .insert h1, .hero-brexit .hero-reborn .insert h1 {
+    margin: 4% auto 2%;
+  }
+  .hero-reborn .btn-hero {
+    margin-top: 2%;
+  }
+
+  /* Backgroundz HERO -> financement::activite */
+  .hero-affacturage {
+    background: url(../images/financement-affacturage-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-credit-treso {
+    background: url(../images/financement-credit-tresorerie-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-renseignement {
+    background: url(../images/financement-renseignement-commercial-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-cice {
+    background: url(../images/financement-cice-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-cir {
+    background: url(../images/financement-cir-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-escompte {
+    background: url(../images/financement-escompte-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-facilite-caisse {
+    background: url(../images/financement-facilite-de-caisse-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-facture-demande {
+    background: url(../images/financement-facture-demande-hero-smart-640.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> financement::investissements */
+  .hero-automobile {
+    background: url(../images/financement-automobile-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-bail-immo {
+    background: url(../images/financement-credit-bail-immobilier-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-immob {
+    background: url(../images/financement-credit-immobilier-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-bail-mob {
+    background: url(../images/financement-credit-bail-mobilier-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-classique {
+    background: url(../images/financement-credit-classique-hero-smart-640.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> financement::domestique */
+  .hero-caution {
+    background: url(../images/caution-hero-smart-640.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> au-quotidien::a-distance */
+  .hero-secure-access {
+    background: url(../images/secure-access-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-sogecashnet {
+    background: url(../images/sogecash-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-appli-sgn {
+    background: url(../images/au-quotidien-sogecashnet-hero-smart-640.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> au-quotidien::encaissement */
+  .hero-sur-internet {
+    background: url(../images/au-quotidien-sogenactif-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-cartes {
+    background: url(../images/au-quotidien-cartes-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-facture-carte {
+    background: url(../images/au-quotidien-facture-par-carte-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-facture-virement {
+    background: url(../images/au-quotidien-facture-virement-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-cheque {
+    background: url(../images/au-quotidien-cheque-hero-smart-640.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> au-quotidien::paiements */
+  .hero-virement {
+    background: url(../images/au-quotidien-virements-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-virement-internationaux {
+    background: url(../images/au-quotidien-virements-internationaux-hero-960.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> international */
+  .hero-prospectez {
+    background: url(../images/international-prospectez-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-remportez {
+    background: url(../images/international-remportez-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-financez {
+    background: url(../images/international-financer-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-securisez {
+    background: url(../images/international-securiser-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-solutions {
+    background: url(../images/international-solutions-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-brexit {
+    background: url(../images/international-brexit-hero-smart-640.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> motiver-vos-salaries */
+  .hero-pei {
+    background: url(../images/motiver-vos-salaries-pei-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-perco {
+    background: url(../images/motiver-vos-salaries-perco-retraite-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-palissandre {
+    background: url(../images/motiver-vos-salaries-palissandre-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-complementaire {
+    background: url(../images/motiver-vos-salaries-complementaire-sante-collective-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-rdd {
+  	background: url(../images/assurance-responsabilite-dirigeants-hero-smart-640.png) no-repeat center top;
+  }
+  .hero-indemnite {
+    background: url(../images/motiver-vos-salaries-indemnites-fin-carriere-hero-smart-640.jpg) no-repeat center top;
+  }
+
+  /* Backgroundz HERO -> placements */
+  .hero-mandat {
+    background: url(../images/placements-gestion-sous-mandat-hero-smart-640.jpg) no-repeat center top;
+  }
+
+  /* Solutions */
+  .service-container .w20p {
+    width: 60px;
+  }
+  .service-container .picto {
+    width: 60px;
+    margin-bottom: 15px;
+  }
+  .service-container .new-charte {
+    width: 100% !important;
+  }
+  .service-container {
+    margin-top: 35px;
+  }
+  .service-container h4 {
+    max-width: 350px;
+    padding: 16px 0 0 90px;
+    font-size: 1.4em;
+  }
+  .service-container .chevron {
+    margin: 24px 5px 0 0;
+    width: 30px;
+    height: 16px;
+  }
+  .service-container .two-lines,
+  .service-container .almost-two-lines {
+    padding-top: 0;
+  }
+
+  /* Pages Soeurs */
+  #main_content_1 #bottom-content li ul li {
+    font-size: 1.1em;
+  }
+  #main_content_1 #bottom-content li ul li,
+  #main_content_1 #bottom-content li ul li.first-li-smart {
+    width: 100%;
+  }
+
+  /* Au Quotidien -> Encaissement -> Facture par virements */
+  .schema-facture-virement {
+    background: url(../images/au-quotidien-facture-par-virement-schema-mobile.jpg) no-repeat;
+    width: 320px;
+    height: 900px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .hero-reborn .insert h1 {
+    margin: 4% auto 0;
+  }
+  .hero-reborn .insert .btn-hero {
+    margin-top: 3%;
+  }
+  .hero-reborn .insert.two-lines h1 {
+    margin: 2% auto 0;
+  }
+  .hero-reborn .insert.two-lines .btn-hero {
+    margin-top: 1%;
+  }
+  /* simulateur */
+  .lien-simulateur a.fltr {
+    max-width: 160px !important;
+    margin: 0 0 0 15px !important;
+  }
+  .lien-simulateur > img {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    padding: 0 8%;
+  }
+  .wrapper h3 {
+    font-size: 1.7em;
+  }
+  .wrapper .arrow-list {
+    padding-left: 0;
+  }
+  .service-container h4 {
+    max-width: 300px;
+    font-size: 1.2em;
+  }
+  .service-container .two-lines,
+  .service-container .almost-two-lines {
+    padding-top: 4px;
+  }
+  .service-container .chevron {
+    margin: 22px 0 0 0;
+    width: 24px;
+    height: 13px;
+  }
+  .toggle-atouts-fp h3 {
+    width: 64%;
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .subscribe .left,
+  .subscribe .right {
+    min-width: 100%;
+  }
+  .subscribe .links a {
+    width: 53%;
+  }
+  .subscribe .right a {
+    width: 270px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .hero-reborn .insert {
+    height: 50%;
+  }
+  .hero-reborn .insert h1 {
+    margin: 8% auto 0;
+  }
+  .hero-reborn .insert .btn-hero {
+    margin-top: 6%;
+  }
+  .hero-reborn .insert.two-lines {
+    height: 50%;
+  }
+  .hero-reborn .insert.two-lines h1 {
+    margin: 4% auto;
+  }
+  .service-container h4 {
+    max-width: 248px;
+    padding: 6px 0 0 80px;
+  }
+  .service-container .one-line-380 {
+    padding: 16px 0 0 80px;
+  }
+  .toggle-atouts-fp .picto {
+    width: 64px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .service-container h4 {
+    max-width: 238px;
+    font-size: 1.1em;
+  }
+}

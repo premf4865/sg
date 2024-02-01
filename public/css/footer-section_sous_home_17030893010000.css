@@ -1,0 +1,610 @@
+/*=========================
+======== Sous-Home ========
+=========================*/
+
+.hr-hero-smart {
+  display: none;
+}
+.hero__content .btn,
+.hero__content btn-hero {
+  font-size: 1em;
+}
+.hero-reborn .hr-hero {
+  margin: 7% 0 5%;
+}
+.hero-reborn .btn-hero {
+  margin-top: 7%;
+}
+.top_content_p {
+  width: 960px;
+  margin: 0 auto 100px;
+  *margin: 0 auto 10px;
+}
+.btn {
+  margin-top: 7%;
+}
+.bgpink {
+  margin-top: 7%;
+  *padding: 20px 10px 12px 28px;
+}
+.bgpink img {
+  margin: 0 0 -38px 40px;
+  *left: 40px;
+}
+.darkgrayf {
+  width: 33.3%;
+  line-height: 1em;
+}
+.darkgrayf img {
+  margin-right: 12px;
+  margin-bottom: 30px;
+}
+.encart-gray-blue {
+  padding: 70px 4.4%;
+  *width: 31.2%;
+  height: 288px;
+  *height: 148px;
+}
+.encart-gray-blue.with-img {
+  padding: 0;
+  overflow: hidden;
+}
+.with-img .btnwhite {
+  margin-top: -2px;
+}
+.encart-gray-blue img {
+  margin: -26px 0 16px;
+}
+.encart-gray-blue img.mt0 {
+  margin: 0 0 16px;
+}
+.narrow-pad {
+  padding: 70px 2.8%;
+  *padding: 60px 2.8% 0;
+}
+.narrow-pad h1 {
+  margin-bottom: 5%;
+}
+.narrow-box {
+  padding: 70px 2.8% 0;
+  padding: 70px 0 0\9;
+  *padding: 70px 0 0;
+}
+.narrow-pad p {
+  margin: 0;
+}
+.submenu-container {
+  overflow: hidden;
+  padding: 0 2.8%;
+}
+.submenu-container ul {
+  float: left;
+}
+.reverse-arrow {
+  *top: 0;
+  *left: 15px;
+}
+.hr-grey {
+  margin-top: 0;
+}
+.hr-grey.mt60 {
+  margin-top: 60px;
+}
+.hr-red-mob {
+  display: none;
+}
+.img-border {
+  border-right: 1px solid #a6a6a6;
+}
+.duplicate {
+  display: none;
+}
+
+
+/* Slider Financement */
+
+.unslider {
+  float: right;
+  width: 40%;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #4d7899;
+}
+.unslider,
+.slider-temoignages {
+  height: 288px;
+}
+.unslider-wrap {
+  position: relative;
+}
+.unslider-wrap.unslider-carousel>li {
+  float: left;
+  text-align: center;
+}
+.unslider-wrap.unslider-carousel>li.without-img {
+  padding: 84px 0;
+}
+.unslider-wrap.unslider-carousel>li img {
+  margin-top: -18px;
+}
+.unslider-wrap.unslider-carousel>li h4 {
+  max-width: 70%;
+  font-family: 'source_sans_proitalic';
+  font-size: 1.1em;
+  color: #fff;
+  margin: 0 auto 20px;
+}
+.unslider-wrap.unslider-carousel>li.without-img h4 {
+  margin: 0 auto 30px;
+}
+.unslider-wrap.unslider-carousel>li a {
+  padding: 8px 22px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  transition: 1s ease;
+  text-decoration: none;
+  color: #fff;
+}
+.unslider-wrap.unslider-carousel>li a:hover,
+.unslider-wrap.unslider-carousel>li a:focus {
+  background-color: #fff;
+  color: #4d789a;
+}
+.unslider-vertical>ul {
+  height: 100%;
+}
+.unslider-vertical li {
+  float: none;
+  width: 100%;
+}
+.unslider-fade {
+  position: relative
+}
+.unslider-fade .unslider-wrap li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 8;
+}
+.unslider-fade .unslider-wrap li.unslider-active {
+  z-index: 10
+}
+.unslider li,
+.unslider ol,
+.unslider ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.unslider-arrow {
+  display: block;
+  position: relative;
+  z-index: 9999;
+  width: 40px;
+  height: 80px;
+  cursor: pointer;
+}
+.unslider-arrow.prev {
+  float: left;
+  background: url(../images/tiny-slider-left-button.png) 0 0 no-repeat;
+  margin-top: -172px;
+}
+.unslider-arrow.next {
+  float: right;
+  background: url(../images/tiny-slider-right-button.png) 0 0 no-repeat;
+  margin-top: -172px;
+}
+.unslider-nav {
+  display: none;
+}
+
+
+@media only screen and (max-width: 1080px) {
+  .encart-gray-blue img {
+    margin: 0 0 16px;
+  }
+}
+
+
+/* Responsive Tablet */
+
+@media only screen and (max-width: 960px) {
+  /* Hero */
+  .hero img,
+  .insert .hr-hero,
+  .insert .mini-grey-txt span,
+  .dspn {
+    display: none;
+  }
+  .hero {
+    height: 419px;
+  }
+  .hero-financement {
+    background: url(../images/financement-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-quotidien {
+    background: url(../images/au-quotidien-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-international {
+    background: url(../images/international-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-motive {
+    background: url(../images/motiver-vos-salaries-hero-smart.jpg) no-repeat center top;
+  }
+  .hero-placement {
+    background: url(../images/placement-hero-smart.jpg) no-repeat center top;
+  }
+  .hero__content .insert {
+    height: 100%;
+  }
+  .hero-reborn .insert h1 {
+    margin: 36% 0 0;
+  }
+  .hero-reborn .insert .mini-grey-txt {
+    position: absolute;
+    clear: left;
+    width: 70%;
+    max-width: 250px;
+    top: initial;
+    bottom: 16%;
+  }
+  .insert .hr-hero-smart {
+    display: inline;
+    margin: 28% 0 6% 0;
+  }
+
+  /* Top */
+  .top_content_p,
+  .hr-grey,
+  .arrow-bottom2,
+  .narrow-pad p,
+  #partners>img,
+  #partners h1 span {
+    display: none;
+  }
+  .narrow-pad {
+    padding: 0 0 0 2.8%;
+    margin: 70px 0 0;
+    background-color: #f5f5f5;
+  }
+  .narrow-pad h1 {
+    font-size: 1.7em;
+    margin-left: 24px;
+  }
+  .narrow-box {
+    width: 84%;
+    height: 70px;
+    padding: 0;
+  }
+  .hr-red-mob {
+    display: block;
+    width: 18%;
+    height: 3px;
+    background-color: #ed1b3b;
+    margin: 40px 0 0 24px;
+  }
+  .mb50 {
+    margin-bottom: 80px;
+  }
+  .w50p {
+    width: 40%;
+  }
+  .w54p {
+    width: 100%;
+  }
+  .narrow-pad>img,
+  .encart-gray-blue,
+  .unslider {
+    width: 57%;
+  }
+  .encart-gray-blue img {
+    margin-top: -26px;
+  }
+  .narrow-pad .btn {
+    width: 100%;
+  }
+  .submenu-container {
+    margin-top: 0;
+    padding-left: 0;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome {
+    width: 84%;
+    margin: 0 auto;
+    background: none;
+    padding-left: 2.8%;
+    margin-left: 24px;
+  }
+  ul#bottom-content li {
+    max-width: 100%;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li {
+    margin: 10px 0 40px;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li.first-li {
+    margin-left: 0;
+  }
+  #main_content_1 ul li ul li {
+    border: none;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li ul li {
+    float: left;
+    clear: none;
+    width: 40%;
+    margin: 0 10% 0 0;
+    padding: 8px 0;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li ul li a {
+    text-decoration: underline;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li ul li.first-li-smart {
+    float: none;
+    width: 60%;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li ul li.first-li-smart br {
+    display: none;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li ul .hr-red-mob {
+    width: 10.4%;
+    float: left;
+    margin: 0 89% 10px 0;
+  }
+  .duplicate {
+    display: list-item;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li#mb0-smart {
+    margin-bottom: 0;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li ul li+li:hover,
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li ul li+li:focus {
+    background: none;
+  }
+  #main_content_1 ul li ul li.last-bottom-left:hover,
+  #main_content_1 ul li ul li.last-bottom-left:focus {
+    border: 0;
+  }
+  .bgpink {
+    min-width: 100%;
+  }
+
+  /* Partenaires BEI & BPI Financement */
+  #partners {
+    background-color: #fff;
+    padding: 0;
+  }
+  #partners h1 {
+    width: 92%;
+    text-align: center;
+  }
+  #partners-container {
+    width: 96%;
+    max-width: 481px;
+    margin: 0 auto;
+  }
+  #partners-container img {
+    width: 49.5%;
+  }
+
+  /* Unslider */
+  .unslider-wrap.unslider-carousel>li img {
+    margin-top: -34px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .narrow-pad h1 {
+    font-size: 1.5em;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li ul li.first-li-smart {
+    font-size: 1.4em;
+  }
+}
+
+
+/* Responsive Smartphone */
+
+@media only screen and (max-width: 720px) {
+  .narrow-pad {
+    background: none;
+    margin: 0 0 16%;
+    padding: 54% 0 0;
+  }
+  .narrow-pad.submenu-container {
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+  .narrow-pad>img {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+  }
+  .encart-gray-blue,
+  .unslider {
+    display: none;
+  }
+  .mb50 {
+    margin-bottom: 50px;
+  }
+  .w50p {
+    float: none;
+    position: relative;
+    width: 82%;
+    margin: 0 auto -82% !important;
+    padding: 44px 9%;
+    background: #f5f5f5;
+    z-index: 2;
+  }
+  .hr-red-mob {
+    margin: 0 auto 20px;
+  }
+  .narrow-pad h1 {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .narrow-pad.without-blue {
+    height: 215px;
+    padding: 0;
+    margin: 0;
+  }
+  .narrow-pad.without-blue .w50p {
+    padding-bottom: 0;
+  }
+  #partners {
+    height: 170px;
+    margin: 200px auto 30px;
+    padding: 0;
+  }
+  .without-blue .w50p {
+    background: none;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li {
+    margin: 10px 0 0;
+  }
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li ul li,
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li ul li.first-li-smart {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .hero-reborn .insert .mini-grey-txt {
+    width: 86%;
+    max-width: 100%;
+    bottom: 24%;
+    margin-left: 7%;
+  }
+  .insert .hr-hero-smart {
+    display: none;
+  }
+  #intro {
+    font-size: 1.6em;
+  }
+  .narrow-pad.without-blue {
+    padding: 0 0 34%;
+  }
+  .hero-financement {
+    background: url(../images/financement-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-quotidien {
+    background: url(../images/au-quotidien-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-international {
+    background: url(../images/international-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-motive {
+    background: url(../images/motiver-vos-salaries-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero-placement {
+    background: url(../images/placement-hero-smart-640.jpg) no-repeat center top;
+  }
+  .hero__content .insert {
+    height: 46%;
+  }
+  .hero-reborn .insert h1 {
+    margin: 6% auto 2%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .narrow-pad {
+    padding: 48% 0 0;
+    margin: 0;
+  }
+  .narrow-pad>img {
+    margin-bottom: 16%;
+  }
+  .narrow-pad.without-blue {
+    padding: 0 0 38%;
+  }
+  #partners {
+    margin: 60px auto 30px;
+  }
+  .narrow-pad.without-blue+.narrow-pad.submenu-container {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .hero-reborn .insert h1 {
+    margin: 6% auto 3%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #main {
+    font-size: 0.9em;
+  }
+  .w50p {
+    padding: 30px 9%;
+  }
+  .narrow-pad.without-blue {
+    padding: 0 0 44%;
+  }
+  .narrow-pad.submenu-container {
+    margin-top: -4%;
+  }
+  .less-500 {
+    margin-top: -16px;
+  }
+  .narrow-pad.without-blue.two-lines {
+    height: 186px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .narrow-pad {
+    padding: 44% 0 0;
+  }
+  .w50p {
+    padding: 20px 6%;
+  }
+  #partners {
+    height: 300px;
+  }
+  #partners-container img {
+    display: block;
+    float: none;
+    width: 96%;
+    max-width: 240px;
+    margin: 20px auto 0;
+  }
+  .img-border {
+    border-right: 0;
+    border-bottom: 1px solid #a6a6a6;
+  }
+  .narrow-pad.without-blue {
+    padding: 0 0 48%;
+  }
+  .focus-row.mt10,
+  .narrow-pad #main_content_1 ul.bottom-content-sshome li {
+    margin-top: 0;
+  }
+  .narrow-pad>img {
+    margin-bottom: 20%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .narrow-pad.without-blue {
+    padding: 0 0 54%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  body {
+    font-size: 0.9em;
+  }
+  .hero-reborn .insert h1 {
+    margin: 6% auto 5%;
+  }
+  .narrow-pad .btn i {
+    display: none;
+  }
+  .w50p {
+    padding: 20px 5%;
+    margin: 0 auto -94% !important;
+  }
+  .narrow-pad>img {
+    margin-bottom: 38%;
+  }
+}
