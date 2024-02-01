@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* --- DEB TAILLE MINIMALE POUR LES GABARITS FIREFOX DANS VIGNETTE --- */
+#nge_header, #nge_zone_barre_gauche, #nge_contenu_barre_gauche, nge_zone_breadcrumb_btprint, #nge_zone_barre_haute_gauche, #nge_zone_barre_haute_droite, #nge_zone_centre_page,
+#nge_zone_centre_haut, #nge_zone_centre_haut_prog, #nge_zone_centre_gauche_prog, #nge_zone_centre_droite_prog,#nge_zone_centre_gauche, #nge_zone_centre_droite, #nge_zone_centre_bas, #nge_zone_barre_droite, #nge_contenu_barre_droite, #nge_footer, #nge_zone_centre {min-height: 1px;}
+
+#nge_zone_centre_gauche, #nge_zone_centre_droite, #nge_zone_barre_gauche, #nge_contenu_barre_gauche, #nge_zone_barre_droite, #nge_contenu_barre_droite {position: relative;}
+k
+/* -------------------------------------------------------------------------------- */
+/* --- DEB ZONE BODY ET ENCADREMENT OMBRE --- */
+/* ----------------------------------- */
+
+body {
+	background-color: #FFFFFF;
+}
+
+#nge_zone_page {
+	max-width: 1200px;
+	min-width: 960px;
+	position: relative;
+	padding: 0 5px;
+	margin: 0 auto;
+}
