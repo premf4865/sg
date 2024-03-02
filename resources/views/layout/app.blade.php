@@ -9,6 +9,7 @@
 				<meta property="og:title" content="SG - Banque et Assurance pour les Entreprises">
 			<meta name="description" content="Offres et services bancaires pour les entreprises, ouverture de compte, financement, international… SG vous accompagne dans la gestion de votre entreprise.">
 		<meta name="twitter:card" content="summary">
+        <meta name="keywords" content="SG, SG pro, SG PROFESSIONNEL, société générale professionnel, Société Générale, entreprise,&nbsp;société générale, entreprise,&nbsp;sogecashnet, Sogecashnet, Sg particulier, Société générale particulier">
 
 		<!-- Start SmartBanner configuration -->
 <meta name="smartbanner:title" content="L'Appli Sogecash Net SG">
@@ -35,17 +36,17 @@
     if (typeof userSegmentNames === "undefined") {
         var userSegmentNames = [];
     }
-    
+
         userSegments.push("S--1470891196-0000000000000000000000RCRD");
-    
+
         userSegments.push("S-1291998658-00000000000000000000000RCRD");
-    
+
         userSegments.push("S-1609544352-00000000000000000000000RCRD");
-    
+
         userSegmentNames.push("0");
-    
+
         userSegmentNames.push("Desktop");
-    
+
         userSegmentNames.push("Clients_Generiques");
     </script>
 <link href="{{ asset("assets/css/print.min.css") }}" rel="stylesheet" type="text/css" media="print">
@@ -136,7 +137,7 @@
         var xiti_xtn2 = "accueil";
         var xtn2 = "accueil";
 
-        
+
 
         var sasInf = document.getElementById('sas_user_info');
         if (sasInf) {
@@ -146,27 +147,27 @@
                 if (sasJs && sasJs.IdStat && sasJs["user-info-firstname"] && sasJs["user-info-lastname"]) {
                     tc_vars["user_id"] = sasJs.IdStat;
                     tc_vars["user_is_logged"] = true;
-                    
+
 
                 } else {
                     tc_vars["user_is_logged"] = false;
-                    
+
                 }
                 if(sasJs && sasJs["user-info-sup"]==="true" ){
                     tc_vars["user_is_supervisor"] = true;
-                    
+
                 }else{
                     tc_vars["user_is_supervisor"] = false;
-                    
+
                 }
 
             } catch (e) {
                 tc_vars["user_is_logged"] = false;
-                
+
             }
         } else {
             tc_vars["user_is_logged"] = false;
-            
+
         }
     </script>
 <link rel="stylesheet" href="{{ asset("assets/css/smartbanner.css") }}"><script type="text/javascript">
@@ -220,16 +221,16 @@
 	var pageCategory1 = tc_vars.page_category_1;
 	var pageCategory2 = tc_vars.page_category_2;
 	var pageCategory3 = tc_vars.page_category_3;
-	
+
 	if (pageCategory1)
 		pageName.push(pageCategory1);
-	
+
 	if (pageCategory2)
 		pageName.push(pageCategory2);
-	
+
 	if (pageCategory3)
 		pageName.push(pageCategory3);
-	
+
 	pageName.push(tc_vars.page_name);
 
 	kameleoonQueue.push(['Data.setCustomData', 'page_name', pageName.join("::")]);
@@ -248,24 +249,24 @@
 		Entreprises
 		<svg class="dcw_dropdown_icon_arrow" aria-hidden="true" focusable="false"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#arrow-dropdown"></use></svg>
     </button>
-    
+
     <ul class="dcw_dropdown_list toggle_content" id="id_menu_deroulant">
-            <li class="rsp_dropdown_item"> 
+            <li class="rsp_dropdown_item">
                 <a class="dcw_dropdown_link js-dropdown_link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;banque-privee&quot;})"><span>Banque Privée</span></a>
             </li>
-            <li class="rsp_dropdown_item"> 
+            <li class="rsp_dropdown_item">
                 <a class="dcw_dropdown_link js-dropdown_link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;particuliers&quot;})"><span>Particuliers</span></a>
             </li>
-            <li class="rsp_dropdown_item"> 
+            <li class="rsp_dropdown_item">
                 <a class="dcw_dropdown_link js-dropdown_link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;professionnels&quot;})"><span>Professionnels</span></a>
             </li>
-            <li class="rsp_dropdown_item"> 
+            <li class="rsp_dropdown_item">
                 <a class="dcw_dropdown_link js-dropdown_link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;associations&quot;})"><span>Associations</span></a>
             </li>
-            <li class="rsp_dropdown_item"> 
+            <li class="rsp_dropdown_item">
                 <a class="dcw_dropdown_link js-dropdown_link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;économie-publique&quot;})"><span>Économie publique</span></a>
             </li>
-            <li class="rsp_dropdown_item"> 
+            <li class="rsp_dropdown_item">
                 <a class="dcw_dropdown_link js-dropdown_link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;decouvrir-sg&quot;})"><span>Découvrir SG</span></a>
             </li>
     </ul>
@@ -284,7 +285,7 @@
 		<button class="rsp_btn rsp_btn--burger js-header-burger" aria-controls="menuMobile" aria-expanded="false">
     <svg class="picto-menu  v-align-middle" aria-label="ouvrir le menu" aria-labelledby="picto-menu" role="img" viewBox="0 0 24 26" height="26" width="24"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#lhs-burger-menu"></use></svg>
     <svg class="picto-close v-align-middle" aria-label="fermer le menu" aria-labelledby="picto-menu" role="img" viewBox="0 0 20 20" height="20" width="20"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#lhs-burger-close"></use></svg>
-</button> 
+</button>
 
 
 
@@ -378,9 +379,9 @@
         <rect x="38.2" y="18.5" width="28.3" height="12.8"></rect>
         <rect x="38.2" y="15.7" class="st2" width="28.3" height="2.8"></rect>
       </svg>
-  </a>   
+  </a>
 
- 
+
 
 <nav class="rsp_nav" role="navigation" aria-label="navigation principale">
 			<a id="go-navigation" tabindex="-1"></a>
@@ -425,7 +426,7 @@
             <button type="submit" aria-label="Lancer la recherche" class="dcw_visually-hidden">Ok</button>
         </form>
     </li>
-    
+
             <li class="rsp_nav__item">
 <a class="rsp_nav__link" href="/financement" data-element-label="financement" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;financement&quot;})">                    Financement
 </a>            </li>
@@ -441,7 +442,7 @@
             <li class="rsp_nav__item">
 <a class="rsp_nav__link" href="/proteger-et-fideliser" data-element-label="proteger-et-fideliser" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;proteger-et-fideliser&quot;})">                    Protéger et fidéliser
 </a>            </li>
-    
+
 <li class="rsp_nav__item rsp_nav__item--emergency">
     <button class="rsp_btn rsp_btn--emergency rsp_dropdown js-nav-mobile-first-lvl-btn" aria-expanded="false" aria-controls="sub-list-otherSite">
         Entreprises
@@ -469,7 +470,7 @@
             <li class="rsp_nav__item rsp_nav__item--connect">
                 <a class="rsp_nav__link rsp_nav__link--sub-level" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;decouvrir-sg&quot;})"><span>Découvrir SG</span></a>
             </li>
-    </ul>                
+    </ul>
 </li>    <li class="rsp_nav__item rsp_nav__item--emergency">
         <a class="rsp_nav__link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;aide-et-contacts&quot;})"><svg aria-hidden="true" focusable="false" width="18" height="18"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#lhs-urgence"></use></svg><span>Contacts</span></a>
     </li>
@@ -486,14 +487,14 @@
 			<label for="inputSearch" class="rsp_search-box__label">Rechercher :</label>
 			<div class="rsp_search-box__content-list js-input-menu">
 				<input id="inputSearch" type="search" class="rsp_search-box__input js-main-search_field" autocomplete="off" aria-autocomplete="list" role="combobox">
-				
+
 				<button type="reset" class="rsp_btn rsp_search-box__main-search-erase js-main-search_erase2 dcw_hidden" aria-label="Réinitialiser le champs de recherche">
 					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true" focusable="false">
 					<rect opacity="0.01" width="32" height="32" fill="white"></rect>
 					<path fill-rule="evenodd" clip-rule="evenodd" d="M24.8118 5.33301L26.6668 7.18808L17.8548 15.9997L26.6668 24.8113L24.8118 26.6663L16.0002 17.8543L7.18857 26.6663L5.3335 24.8113L14.1455 15.9997L5.3335 7.18808L7.18857 5.33301L16.0002 14.145L24.8118 5.33301Z" fill="#ffffff"></path>
 					</svg>
-				</button>				
-				
+				</button>
+
 				<button class="rsp_btn v-align-middle js-search-form-btn" title="Lancer la recherche">
 					<svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 						<path fill="currentColor" fill-rule="evenodd" d="M13.775 15.896a7 7 0 1 1 2.121-2.121L21.121 19 19 21.121l-5.225-5.225zM10 15a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"></path>
@@ -514,7 +515,7 @@
 	</script>
 </header><main class="dcw_main" role="main">
 	<a id="go-content" tabindex="-1"></a>
-	
+
 
 
 <nav class="dcw_breadcrumb" aria-label="Fil d'ariane">Vous êtes ici :
@@ -537,44 +538,44 @@
               <a href="/" data-tms-element-label="home" data-tms-click-type="N" data-tms-container-label="fil-d-ariane-desktop">Accueil </a>
                       </li><li class="dcw_breadcrumb-mobile_item is-active">
           <svg class="dcw_breadcrumb-mobile_corner" aria-hidden="true" focusable="false"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#corner"></use></svg>
-          
-  
+
+
                   Home
-          
+
       </li>
-  
-          
+
+
     </ul>
   </nav>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-          
-  
-      
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <aside class="dcw_msg-banner dcw_msg-banner--info dcw_msg-banner--last-connexion" id="lastConnectionBanner" role="alert" style="display:none;">
       <svg class="dcw_msg-banner_picto-info" aria-hidden="true" focusable="false"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#info"></use></svg>
       <p class="dcw_msg-banner_message" id="lastConnectionMessage">
-          
+
       </p>
       <button arial-label="Fermer le message contextuel" class="dcw_msg-banner_btn-closed">
           <svg aria-hidden="true" focusable="false"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#close-2"></use></svg>
@@ -599,7 +600,7 @@
               <ul class="dcw_footer-fourth_item-category">
                   <li><a href="{{ route('login') }}">Simulateur crédit classique</a></li>
                   <li><a href="{{ route('login') }}">Simulateur crédit immobilier</a></li>
-                  <!-- <li><a href="/simulateurs/selecteur-carte">Sélecteur de carte</a></li> -->		
+                  <!-- <li><a href="/simulateurs/selecteur-carte">Sélecteur de carte</a></li> -->
               </ul>
           </section>
           <!-- section-->
@@ -719,11 +720,11 @@
   </footer>
   <script>
       if (!window.cmsConstants) window.cmsConstants = {};
-  
+
       window.cmsConstants.LOGGER_SERVICE_END_POINT = "/extrestcontent/logBigData";
       window.cmsConstants.LOGGER_LEVEL_MIN_SERVER = "error";
       window.cmsConstants.LOGGER_LEVEL_MIN_CLIENT = "debug";
-  
+
       window.cmsConstants.LOGGER_SERVICE_END_POINT_DEFAULT = "/extrestcontent/logBigData";
       window.cmsConstants.LOGGER_LEVEL_MIN_SERVER_DEFAULT = "ERROR";
       window.cmsConstants.LOGGER_LEVEL_MIN_CLIENT_DEFAULT = "ERROR";
@@ -736,5 +737,5 @@
                   <script charset="UTF-8" src="{{ asset("assets/js/public-tms.js")}}"></script>
                           <script type="text/javascript" src="{{ asset("assets/js/smartbanner.min.js")}}"></script><script type="text/javascript" src="{{ asset("assets/js/avenir.js")}}"></script><script type="text/javascript" src="{{ asset("assets/js/lazysizes.min.js")}}"></script>
   <script type="text/javascript" src="{{ asset("assets/js/lazyload-safari-hack.js")}}"></script>
-  
+
   </body></html>

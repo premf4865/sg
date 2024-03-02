@@ -1,56 +1,34 @@
 @extends('layout.app')
 @section('content')
 
-<section class="stl_section stl_section--hero stl_section--hero-home stl_section--hero-full" data-zone="herobanner">
-    <div class="stl_layout" style="background-color: #000">
-      <div class="stl_grid_row">
-        <div class="stl_grid_col stl_grid_col-xs-12 stl_grid_col--anim">
-          <div>
-            <picture class="banner-2024-bg">
-              <source srcset="{{ asset("assets/images/banner-2024-bg_x2.webp") }}" media="(max-width: 1023px)" type="image/webp">
-              <source srcset="{{ asset("assets/images/banner-2024-bg.webp") }}" media="(min-width: 1024px)" type="image/webp">
-              <source srcset="{{ asset("assets/images/banner-2024-bg.jpg") }}" media="(min-width: 1024px)" type="image/jpeg">
-              <img src="{{ asset("assets/images/banner-2024-bg.jpg") }}" width="1800" height="560" alt="">
-            </picture>
-            <picture class="banner-2024 banner-2024-encodant">
-              <source srcset="{{ asset("assets/images/banner-2024-encodant.png") }}" media="(min-width: 1024px)" type="image/png">
-              <img src="{{ asset("assets/images/banner-2024-encodant.png") }}" width="1800" height="560" alt="">
-            </picture>
-            <picture class="banner-2024 banner-2024-fx-gauche">
-              <source srcset="{{ asset("assets/images/banner-2024-fx.png") }}" media="(min-width: 1024px)" type="image/png">
-              <img src="{{ asset("assets/images/banner-2024-fx.png") }}" width="275" height="232" alt="">
-            </picture>
-            <picture class="banner-2024 banner-2024-main-gauche">
-              <source srcset="{{ asset("assets/images/banner-2024-main-gauche.webp") }}" media="(min-width: 1024px)" type="image/webp">
-              <source srcset="{{ asset("assets/images/banner-2024-main-gauche.png") }}" media="(min-width: 1024px)" type="image/png">
-              <img src="{{ asset("assets/images/banner-2024-main-gauche.png") }}" width="470" height="616" alt="">
-            </picture>
-            <picture class="banner-2024 banner-2024-fx-droite">
-              <source srcset="{{ asset("assets/images/banner-2024-fx.png") }}" media="(min-width: 1024px)" type="image/png">
-              <img src="{{ asset("assets/images/banner-2024-fx.png") }}" width="275" height="232" alt="">
-            </picture>
-            <picture class="banner-2024 banner-2024-main-droite">
-              <source srcset="{{ asset("assets/images/banner-2024-main-droite.webp") }}" media="(min-width: 1024px)" type="image/webp">
-              <source srcset="{{ asset("assets/images/banner-2024-main-droite.png") }}" media="(min-width: 1024px)" type="image/png">
-              <img src="{{ asset("assets/images/banner-2024-main-droite.png") }}" width="670" height="616" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="stl_grid_col stl_grid_col-xs-12 stl_grid_col--content">
-          <div class="hero_container">
-            <div>
-              <span class="stl_tag" style="color: #fff; background-color: #e2010b">Vœux 2024</span>
-              <h1 id="title4" class="stl_title stl_title--1" style="color: #FFF" data-sujet="">
-                Tous nos vœux de bonheur pour 2024
-              </h1>
-              <p id="desc4" class="stl_baseline" style="color: #FFF">
-                En cette nouvelle année, nous continuerons de vous accompagner pour faire grandir vos idées.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<section class="stl_section stl_section--hero stl_section--hero-home">
+	<div class="stl_layout aplatCG" style="background-color: rgb(221, 213, 229);">
+		<div class="stl_grid_row">
+			<div class="stl_grid_col stl_grid_col-xs-12 stl_grid_col-xl-5 stl_grid_col--visual visualHeroMax">
+				<picture>
+					<source srcset="images/DRZ46LKvp8sq.webp" media="(max-width: 1023px)" type="image/webp">
+					<source srcset="images/QopqzX4UuABC.webp" media="(min-width: 1024px)" type="image/webp">
+					<source srcset="images/N4QXWS1S8xA3.jpg" media="(min-width: 1024px)" type="image/jpeg">
+					<img src="images/N4QXWS1S8xA3.jpg" width="750" height="560" alt="">
+				</picture>
+			</div>
+			<div class="stl_grid_col stl_grid_col-xs-12 stl_grid_col-xl-7 stl_grid_col--content">
+				<div class="hero_container">
+					<div>
+						<span class="stl_tag tagCG" style="background: rgb(226, 1, 11); color: rgb(255, 255, 255); border: 1px solid rgb(226, 1, 11);">pack
+							solaire</span>&nbsp;<h1 class="stl_title stl_title--1 highCG" style="color: rgb(1, 0, 53);">
+							Répondre à vos enjeux énergétiques grâce au pack solaire</h1>
+						<p class="stl_baseline textCG" style="color: rgb(84, 84, 84);">Avec le pack solaire, vous pouvez
+							réduire votre facture énergétique par l'installation de panneaux photovoltaïques.<br></p>
+						<a href="https://entreprises.sg.fr/rse/pack-solaire" class="stl_btn stl_btn--md overCG stl_btn--primary" onclick="bddfTms.trackEvent(this,'publisher_click', {pub_click_campaign: 'ent_rse_fil_rouge_202306', pub_click_category: 'campagne',  pub_click_emplacement: 'banner_hero', pub_click_creation: 'pack_solaire'});" data-id="0" area-label="En savoir plus">
+							<span>En savoir plus</span>
+						</a>
+					</div>
+					<p class="stl_legal-notices textCG" style="color: #545454;"><br></p>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <style>
@@ -204,7 +182,7 @@
             });
           </script>
         </div>
-  
+
         <!-- CARD2 -->
         <div class="stl_grid_col stl_grid_col-xs-12 stl_grid_col-md-6">
           <div class="dca_emplacement dca_card-prospect">
@@ -233,7 +211,7 @@
               </a>
             </div>
           </div>
-  
+
           <script>
             var dcaZones = dcaZones || [];
             dcaZones.push({
@@ -250,7 +228,7 @@
   <script>
     setTimeout(function () {
       var allDefault = document.querySelectorAll("[data-dca-id]");
-  
+
       allDefault.forEach(function (elt, i) {
         elt.getAttribute("data-dca-zoneid");
         if (
@@ -276,13 +254,13 @@
       });
     }, 2000);
   </script>
-  
+
 <style>
   .stl_grid_row--chiffres-cles+.stl_baseline {
     margin-top: 2.5rem;
     text-align: center;
   }
-  
+
   .content--chiffre-cle .chiffre-cle-icon img {
   height: auto;}
 
@@ -780,7 +758,7 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-    
+
                         </div>
                     </div>
                 </div>
@@ -877,14 +855,14 @@
     };
 
     function changeFunction() {
-        var getValue = valueChange.value;    
-        switch (getValue) {    
+        var getValue = valueChange.value;
+        switch (getValue) {
             case "marques":
                 addSelect();
                 title_red.innerHTML = "Une nouvelle marque nationale associée à 10 marques régionales";
                 titleDyna.style.display = "inline-flex";
                 titleDyna.href = "{{ route('login') }}";
-                break;    
+                break;
             case "sg-societe-generale":
                 addClass();
                 removeClass("rSG");
@@ -892,7 +870,7 @@
                 //Tracking
                 trackingZone(getValue)
                 titleDyna.style.display = "none";
-                break;    
+                break;
             case "sg-credit-du-nord":
                 addClass();
                 removeClass("rCDN");
@@ -1076,9 +1054,9 @@
               <h2 class="stl_title stl_title--2">On s’adapte. À vos projets, votre business, à vous.</h2>
               <p class="stl_baseline">Découvrez toutes nos solutions en fonction de votre besoin.</p>
             </div>
-           
+
             <div class="stl_structure-item">
-              
+
               <a href="{{ route('login') }}" class="stl_card stl_card--af-produit-v2" onclick="bddfTms.trackEvent(this,'click',{event_name : 'home::besoin::clic-sur-' + 'sg-entrepreneurs'});">
                 <div class="stl_card-body">
                   <img data-src="https://entreprises.sg.fr/static/Resources/icons/SGAvenirStyledImmeuble64.svg" height="48" width="48" alt="" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">

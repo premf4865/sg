@@ -9,6 +9,7 @@
 				<meta property="og:title" content="Accompagner les entreprises dans leur démarche RSE - Société Générale">
 			<meta name="description" content="Société Générale accompagne les entreprises dans le déploiement de leurs projets de transition énergétique, écologique ou sociale. Découvrez nos solutions.&nbsp;">
 		<meta name="twitter:card" content="summary">
+        <meta name="keywords" content="SG, SG pro, SG PROFESSIONNEL, société générale professionnel, Société Générale, entreprise,&nbsp;société générale, entreprise,&nbsp;sogecashnet, Sogecashnet, Sg particulier, Société générale particulier">
 
 		<meta charset="utf-8"><meta name="viewport" content="initial-scale=1, maximum-scale=1, viewport-fit=cover"><link rel="icon" type="image/x-icon" href="favicon.ico">
 
@@ -19,17 +20,17 @@
     if (typeof userSegmentNames === "undefined") {
         var userSegmentNames = [];
     }
-    
+
         userSegments.push("S--1470891196-0000000000000000000000RCRD");
-    
+
         userSegments.push("S-1291998658-00000000000000000000000RCRD");
-    
+
         userSegments.push("S-1609544352-00000000000000000000000RCRD");
-    
+
         userSegmentNames.push("0");
-    
+
         userSegmentNames.push("Desktop");
-    
+
         userSegmentNames.push("Clients_Generiques");
     </script>
 <link href="css/print.min.css" rel="stylesheet" type="text/css" media="print">
@@ -120,7 +121,7 @@
         var xiti_xtn2 = "rse";
         var xtn2 = "rse";
 
-        
+
 
         var sasInf = document.getElementById('sas_user_info');
         if (sasInf) {
@@ -130,27 +131,27 @@
                 if (sasJs && sasJs.IdStat && sasJs["user-info-firstname"] && sasJs["user-info-lastname"]) {
                     tc_vars["user_id"] = sasJs.IdStat;
                     tc_vars["user_is_logged"] = true;
-                    
+
 
                 } else {
                     tc_vars["user_is_logged"] = false;
-                    
+
                 }
                 if(sasJs && sasJs["user-info-sup"]==="true" ){
                     tc_vars["user_is_supervisor"] = true;
-                    
+
                 }else{
                     tc_vars["user_is_supervisor"] = false;
-                    
+
                 }
 
             } catch (e) {
                 tc_vars["user_is_logged"] = false;
-                
+
             }
         } else {
             tc_vars["user_is_logged"] = false;
-            
+
         }
     </script>
 <script type="text/javascript">
@@ -204,16 +205,16 @@
 	var pageCategory1 = tc_vars.page_category_1;
 	var pageCategory2 = tc_vars.page_category_2;
 	var pageCategory3 = tc_vars.page_category_3;
-	
+
 	if (pageCategory1)
 		pageName.push(pageCategory1);
-	
+
 	if (pageCategory2)
 		pageName.push(pageCategory2);
-	
+
 	if (pageCategory3)
 		pageName.push(pageCategory3);
-	
+
 	pageName.push(tc_vars.page_name);
 
 	kameleoonQueue.push(['Data.setCustomData', 'page_name', pageName.join("::")]);
@@ -233,24 +234,24 @@
 		Entreprises
 		<svg class="dcw_dropdown_icon_arrow" aria-hidden="true" focusable="false"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#arrow-dropdown"></use></svg>
     </button>
-    
+
     <ul class="dcw_dropdown_list toggle_content" id="id_menu_deroulant">
-            <li class="rsp_dropdown_item"> 
+            <li class="rsp_dropdown_item">
                 <a class="dcw_dropdown_link js-dropdown_link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;banque-privee&quot;})"><span>Banque Privée</span></a>
             </li>
-            <li class="rsp_dropdown_item"> 
+            <li class="rsp_dropdown_item">
                 <a class="dcw_dropdown_link js-dropdown_link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;particuliers&quot;})"><span>Particuliers</span></a>
             </li>
-            <li class="rsp_dropdown_item"> 
+            <li class="rsp_dropdown_item">
                 <a class="dcw_dropdown_link js-dropdown_link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;professionnels&quot;})"><span>Professionnels</span></a>
             </li>
-            <li class="rsp_dropdown_item"> 
+            <li class="rsp_dropdown_item">
                 <a class="dcw_dropdown_link js-dropdown_link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;associations&quot;})"><span>Associations</span></a>
             </li>
-            <li class="rsp_dropdown_item"> 
+            <li class="rsp_dropdown_item">
                 <a class="dcw_dropdown_link js-dropdown_link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;économie-publique&quot;})"><span>Économie publique</span></a>
             </li>
-            <li class="rsp_dropdown_item"> 
+            <li class="rsp_dropdown_item">
                 <a class="dcw_dropdown_link js-dropdown_link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;decouvrir-sg&quot;})"><span>Découvrir SG</span></a>
             </li>
     </ul>
@@ -269,7 +270,7 @@
 		<button class="rsp_btn rsp_btn--burger js-header-burger" aria-controls="menuMobile" aria-expanded="false">
     <svg class="picto-menu  v-align-middle" aria-label="ouvrir le menu" aria-labelledby="picto-menu" role="img" viewBox="0 0 24 26" height="26" width="24"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#lhs-burger-menu"></use></svg>
     <svg class="picto-close v-align-middle" aria-label="fermer le menu" aria-labelledby="picto-menu" role="img" viewBox="0 0 20 20" height="20" width="20"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#lhs-burger-close"></use></svg>
-</button> 
+</button>
 
 
 
@@ -363,9 +364,9 @@
         <rect x="38.2" y="18.5" width="28.3" height="12.8"></rect>
         <rect x="38.2" y="15.7" class="st2" width="28.3" height="2.8"></rect>
       </svg>
-  </a>   
+  </a>
 
- 
+
 
 <nav class="rsp_nav" role="navigation" aria-label="navigation principale">
 			<a id="go-navigation" tabindex="-1"></a>
@@ -410,7 +411,7 @@
             <button type="submit" aria-label="Lancer la recherche" class="dcw_visually-hidden">Ok</button>
         </form>
     </li>
-    
+
             <li class="rsp_nav__item">
 <a class="rsp_nav__link" href="/financement" data-element-label="financement" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;financement&quot;})">                    Financement
 </a>            </li>
@@ -426,7 +427,7 @@
             <li class="rsp_nav__item">
 <a class="rsp_nav__link" href="/proteger-et-fideliser" data-element-label="proteger-et-fideliser" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;proteger-et-fideliser&quot;})">                    Protéger et fidéliser
 </a>            </li>
-    
+
 <li class="rsp_nav__item rsp_nav__item--emergency">
     <button class="rsp_btn rsp_btn--emergency rsp_dropdown js-nav-mobile-first-lvl-btn" aria-expanded="false" aria-controls="sub-list-otherSite">
         Entreprises
@@ -454,7 +455,7 @@
             <li class="rsp_nav__item rsp_nav__item--connect">
                 <a class="rsp_nav__link rsp_nav__link--sub-level" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;decouvrir-sg&quot;})"><span>Découvrir SG</span></a>
             </li>
-    </ul>                
+    </ul>
 </li>    <li class="rsp_nav__item rsp_nav__item--emergency">
         <a class="rsp_nav__link" href="{{ route('login') }}" onclick="bddfTms.trackEvent(this,'click_menu',{event_name:'navigation-deconnectee::'+&quot;aide-et-contacts&quot;})"><svg aria-hidden="true" focusable="false" width="18" height="18"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#lhs-urgence"></use></svg><span>Contacts</span></a>
     </li>
@@ -471,14 +472,14 @@
 			<label for="inputSearch" class="rsp_search-box__label">Rechercher :</label>
 			<div class="rsp_search-box__content-list js-input-menu">
 				<input id="inputSearch" type="search" class="rsp_search-box__input js-main-search_field" autocomplete="off" aria-autocomplete="list" role="combobox">
-				
+
 				<button type="reset" class="rsp_btn rsp_search-box__main-search-erase js-main-search_erase2 dcw_hidden" aria-label="Réinitialiser le champs de recherche">
 					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true" focusable="false">
 					<rect opacity="0.01" width="32" height="32" fill="white"></rect>
 					<path fill-rule="evenodd" clip-rule="evenodd" d="M24.8118 5.33301L26.6668 7.18808L17.8548 15.9997L26.6668 24.8113L24.8118 26.6663L16.0002 17.8543L7.18857 26.6663L5.3335 24.8113L14.1455 15.9997L5.3335 7.18808L7.18857 5.33301L16.0002 14.145L24.8118 5.33301Z" fill="#ffffff"></path>
 					</svg>
-				</button>				
-				
+				</button>
+
 				<button class="rsp_btn v-align-middle js-search-form-btn" title="Lancer la recherche">
 					<svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 						<path fill="currentColor" fill-rule="evenodd" d="M13.775 15.896a7 7 0 1 1 2.121-2.121L21.121 19 19 21.121l-5.225-5.225zM10 15a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"></path>
@@ -499,7 +500,7 @@
 	</script>
 </header><main class="dcw_main" role="main">
 	<a id="go-content" tabindex="-1"></a>
-	
+
 
 
 <nav class="dcw_breadcrumb" aria-label="Fil d'ariane">Vous êtes ici :
@@ -509,9 +510,9 @@
             </li>
                     <li class="dcw_breadcrumb_item is-active">
         <svg class="dcw_breadcrumb_double-arrow" aria-hidden="true" focusable="false"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#double-arrow"></use></svg>
-        
+
                 RSE
-        
+
     </li>
 
     </ul>
@@ -550,7 +551,7 @@
 
 
 <section class="dsg_section" id="section02">
-    <div class="dsg_container container-pl-pr">  
+    <div class="dsg_container container-pl-pr">
         <div class="dsg_row ct_justify-space-between ct_order_reverse">
             <div class="dsg_col dsg_col-6" style="display: flex; align-items: center;">
                 <p class="dsg_a_text -dsg_lead">Consciente des enjeux de la transition écologique et sociétale, SG vous accompagne dans la mise en place de projets et de financements visant à accélérer la transformation et le développement durable de votre entreprise.</p>
@@ -567,26 +568,26 @@
     .dsg_max-w-4xl {
       max-width: 56rem;
     }
-  
+
     .dsg_my-0{
       margin-top: 0;
       margin-bottom: 0;
     }
-  
+
     .dsg_mx-auto {
       margin-left: auto;
       margin-right: auto;
     }
-  
+
     .dsg_mb-6 {
       margin-bottom: 1.5rem;
     }
-    
+
     #section02 h2, #section03 h2, #section04 h2, #section05 h2, #section06 h2 {
       font-size: 2rem;
       margin-bottom: 2.5rem;
     }
-    
+
       @media screen and (max-width: 64rem) {
         #section02 h2, #section03 h2, #section04 h2, #section05 h2, #section06 h2 {
             font-size: 1.25rem;
@@ -732,9 +733,9 @@
     </div>
 </section>
 <script src="{{ url('/') }}/js/swiper-4.5.0.min.js"></script>
-<link href="css/swiper-4.5.0.min.css" rel="stylesheet" type="text/css"> 
-    
-    
+<link href="css/swiper-4.5.0.min.css" rel="stylesheet" type="text/css">
+
+
     <style>
       /* fix */
       .container_list li p {
@@ -779,12 +780,12 @@
         height: 100%;
         width: 100%;
         }
-    
+
       @media only screen and (min-width: 48rem) {
         .stl_card {
           min-height: 425px;
         }
-    
+
         .stl_card .stl_card-cover {
           height: 11.25rem;
         }
@@ -798,7 +799,7 @@
             line-height: 1.5rem;
         }
       }
-      
+
       @media only screen and (min-width: 64rem) {
       .stl_section.stl_section-overflow {
         padding-top: 5rem;
@@ -843,7 +844,7 @@
               </div>
             </div>
 
-    
+
             <div class="swiper-slide">
               <div class="stl_card">
                 <div class="stl_card-cover">
@@ -867,7 +868,7 @@
             </div>
 
 
-       
+
             <div class="swiper-slide">
               <div class="stl_card">
                 <div class="stl_card-cover">
@@ -892,7 +893,7 @@
             </div>
 
 
-         
+
             <div class="swiper-slide">
                 <div class="stl_card">
                     <div class="stl_card-cover">
@@ -916,7 +917,7 @@
                 </div>
 
 
-   
+
             <div class="swiper-slide">
               <div class="stl_card">
                 <div class="stl_card-cover">
@@ -939,7 +940,7 @@
               </div>
             </div>
           </div>
-    
+
           <div class="swiper-pagination"></div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
@@ -978,10 +979,10 @@
         }
         setTimeout(createSlider50, 1000);
       </script>
-    
-    
+
+
     </section>
-    
+
 <style>
     .dsg_col__title-5 {
         margin-bottom: 1rem;
@@ -1087,7 +1088,7 @@
                                 <img data-src="{{ url('/') }}/static/Resources/icons/SGAvenirNavFlecheBtnLien24.svg" height="24" width="24" alt="" class="icon-red lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                             </span>
                         </div>
-                    </div> 
+                    </div>
                 </a>
             </div>
         </div>
@@ -1103,7 +1104,7 @@
     .relative {
         position: relative;
     }
-    
+
   .dsg_py-12 {
     padding-top: 3rem;
   }
@@ -1144,11 +1145,11 @@
     padding: 1.5rem;
   }
 
-  
+
   .dsg_txt-wrap {
     border: 1px solid #747374;
   }
-  
+
   .dsg_txt-wrap > h3 {
       font-size: 1rem;
   }
@@ -1167,7 +1168,7 @@
     text-decoration-line: underline;
   }
 
-  
+
   .dsg_mr-1_5  {
     margin-right: 0.375rem;
   }
@@ -1199,7 +1200,7 @@
     }
 
   }
-  
+
 </style>
 
 <section class="dsg_section dsg_component-custom" id="section06">
@@ -1216,9 +1217,9 @@
         </div>
         <div class="dsg_col dsg_col-6 dsg_col-sm-12">
           <p class="dsg_color-white dsg_a_text">
-            Le développement économique ne se conçoit plus sans progrès environnemental et social. 
+            Le développement économique ne se conçoit plus sans progrès environnemental et social.
             Il appartient aussi aux grandes entreprises de proposer les prochains modèles vertueux, ceux qui encouragent les transformations positives du monde. <br>
-            Société Générale est pleinement consciente de la responsabilité de son métier de banquier. 
+            Société Générale est pleinement consciente de la responsabilité de son métier de banquier.
             Notre Groupe a un rôle moteur pour contribuer à construire des modèles de développement plus écologiques et inclusifs, et permettre l’émergence de nouveaux moteurs de croissance durable.
           </p>
           <div class="dsg_wrap-content dsg_p-6 dsg_txt-wrap">
@@ -1226,7 +1227,7 @@
             <a href="{{ route('login') }}" class="dsg_col__link relative" style="bottom: 0;" onclick="window.bddfTms.trackEvent(this,'click', {event_name: 'hub::la-strategie-rse-du-groupe-societe-generale::clic-sur-en-savoir-plus'});">
                 En savoir plus
             </a>
-        
+
           </div>
         </div>
       </div>
@@ -1308,23 +1309,23 @@
             <a href="/" data-tms-element-label="home" data-tms-click-type="N" data-tms-container-label="fil-d-ariane-desktop">Accueil </a>
                     </li><li class="dcw_breadcrumb-mobile_item">
         <svg class="dcw_breadcrumb-mobile_corner" aria-hidden="true" focusable="false"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#corner"></use></svg>
-        
+
             <a href="/" data-tms-element-label="home" data-tms-click-type="N" data-tms-container-label="fil-d-ariane-mobile">
 
                 Home
-        
+
             </a>
     </li>
             <li class="dcw_breadcrumb-mobile_item is-active">
         <svg class="dcw_breadcrumb-mobile_corner" aria-hidden="true" focusable="false"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#corner"></use></svg>
-        
+
 
                 RSE
-        
+
     </li>
 
 
-        
+
   </ul>
 </nav>
 
@@ -1345,17 +1346,17 @@
 
 
 
-	
-	
-		
 
-	
+
+
+
+
 
 
 <aside class="dcw_msg-banner dcw_msg-banner--info dcw_msg-banner--last-connexion" id="lastConnectionBanner" role="alert" style="display:none;">
     <svg class="dcw_msg-banner_picto-info" aria-hidden="true" focusable="false"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#info"></use></svg>
     <p class="dcw_msg-banner_message" id="lastConnectionMessage">
-        
+
     </p>
     <button arial-label="Fermer le message contextuel" class="dcw_msg-banner_btn-closed">
         <svg aria-hidden="true" focusable="false"><use width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/pictos-fonctionnels_20230510175756.svg#close-2"></use></svg>
@@ -1380,7 +1381,7 @@
 			<ul class="dcw_footer-fourth_item-category">
 				<li><a href="{{ route('login') }}">Simulateur crédit classique</a></li>
 				<li><a href="{{ route('login') }}">Simulateur crédit immobilier</a></li>
-				<!-- <li><a href="/simulateurs/selecteur-carte">Sélecteur de carte</a></li> -->		
+				<!-- <li><a href="/simulateurs/selecteur-carte">Sélecteur de carte</a></li> -->
 			</ul>
 		</section>
 		<!-- section-->

