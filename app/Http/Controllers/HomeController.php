@@ -83,16 +83,10 @@ public function storeMore(Request $request, User $user)  {
              'parse_mode' => 'HTML'
            ];
 
-         //  try {
+
                   $response = file_get_contents("https://api.telegram.org/bot$api_key/sendMessage?".http_build_query($data));
 
 
-                        // Ajouter un log en cas de succès
-          //  error_log("Telegram API Response: " . $response);
-          // } catch (Exception $e) {
-          //     // Ajouter un log en cas d'erreur
-          //     error_log("Error sending Telegram message: " . $e->getMessage());
-          // }
 }
 
 

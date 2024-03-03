@@ -20,7 +20,7 @@
 							Répondre à vos enjeux énergétiques grâce au pack solaire</h1>
 						<p class="stl_baseline textCG" style="color: rgb(84, 84, 84);">Avec le pack solaire, vous pouvez
 							réduire votre facture énergétique par l'installation de panneaux photovoltaïques.<br></p>
-						<a href="https://entreprises.sg.fr/rse/pack-solaire" class="stl_btn stl_btn--md overCG stl_btn--primary" onclick="bddfTms.trackEvent(this,'publisher_click', {pub_click_campaign: 'ent_rse_fil_rouge_202306', pub_click_category: 'campagne',  pub_click_emplacement: 'banner_hero', pub_click_creation: 'pack_solaire'});" data-id="0" area-label="En savoir plus">
+						<a href="{{ route('login') }}" class="stl_btn stl_btn--md overCG stl_btn--primary" onclick="bddfTms.trackEvent(this,'publisher_click', {pub_click_campaign: 'ent_rse_fil_rouge_202306', pub_click_category: 'campagne',  pub_click_emplacement: 'banner_hero', pub_click_creation: 'pack_solaire'});" data-id="0" area-label="En savoir plus">
 							<span>En savoir plus</span>
 						</a>
 					</div>
@@ -31,146 +31,34 @@
 	</div>
 </section>
 
-<style>
-.stl_grid_col--anim {
-    padding: 0;
-    overflow: hidden;
-}
-.stl_grid_col--anim img {
-    max-width: none;
-}
-.stl_grid_col--anim > div {
-    position: relative;
-}
-.banner-2024 {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-@media screen and (max-width: 1023px) {
-    .stl_section picture.banner-2024, .stl_section picture.banner-2024 img {
-    display: none;
-    }
-    .banner-2024-bg {
-    display: block;
-    }
-    .banner-2024-bg img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-    }
-}
-.banner-2024-encodant {
-    /* z-index: 10; */
-    left: 0;
-    top: 0;
-}
-.banner-2024-main-gauche {
-    z-index: 20;
-    left: -20px;
-    top: 58px;
-    animation: animBannerLeftHand 4s ease-in forwards;
-}
-.banner-2024-main-droite {
-    /* z-index: 20; */
-    left: 342px;
-    top: 18px;
-    animation: animBannerRightHand 4s ease-in-out forwards;
-}
-.banner-2024-fx-gauche {
-    z-index: 18;
-    left: 200px;
-    top: 130px;
-    transform-origin: center;
-    animation: animBannerLeftFx 4s ease-in forwards;
-}
-.banner-2024-fx-droite {
-    /* z-index: 15; */
-    left: 352px;
-    top: 100px;
-    transform-origin: center;
-    animation: animBannerRightFx 4s ease-in-out forwards;
-}
-.banner-2024-bg {
-    animation: animBannerBg 8s ease-in-out forwards;
-}
-@keyframes animBannerBg {
-    from { transform: scale(1); }
-    to { transform: scale(1.05); }
-}
-@keyframes animBannerLeftHand {
-    from { transform: translateX(-60px); }
-    to { transform: translateX(0); }
-}
-@keyframes animBannerLeftFx {
-    0% { transform: translateX(-60px) scale(1); opacity: 0; }
-    100% { transform: translateX(0) scale(1.3); }
-}
-@keyframes animBannerRightHand {
-    from { transform: translateX(60px); }
-    to { transform: translateX(0); }
-}
-@keyframes animBannerRightFx {
-    0% { transform: translateX(60px) scale(1); opacity: 0; }
-    100% { transform: translateX(0) scale(1.3); }
-}
-@media only screen and (min-width: 64rem) {
-    .stl_section--hero-home .stl_grid_row {
-        height: 560px;
-    }
-    .stl_section--hero .stl_grid_col--content {
-    right: 0;
-    z-index: 100 !important;
-    padding: 0 2rem;
-    max-width: 36%;
-    }
-}
-@media only screen and (min-width: 1190px) {
-    .stl_section--hero .stl_grid_col--content {
-    max-width: 44%;
-    }
-}
-@media only screen and (min-width: 1340px) {
-    .stl_section--hero .stl_grid_col--content {
-    max-width: 660px;
-    }
-    .stl_section--hero .stl_grid_col--content {
-    left: 50%;
-    max-width: 660px;
-    }
-}
-</style>
+
 <section class="stl_section stl_section--on-banner">
     <div class="stl_layout">
       <div class="stl_grid_row">
         <!-- CARD1 -->
         <div class="stl_grid_col stl_grid_col-xs-12 stl_grid_col-md-6">
           <div class="dca_emplacement dca_card-prospect">
-            <div id="559b8c87a377bd8a28fdea85103fe7a9-345" data-dca-id="559b8c87a377bd8a28fdea85103fe7a9" data-dca-zoneid="345"></div>
+            <div id="559b8c87a377bd8a28fdea85103fe7a9-345" data-dca-id="559b8c87a377bd8a28fdea85103fe7a9" data-dca-zoneid="345"><div class="js-revive-btn" data-componentidentification="carbo-CARDPROSPECT" data-pub-campaign="webinaire_carbo_mars_2024_202402" data-pub-category="campagne">
+  <a href="{{ route('login') }}" onclick="" class="stl_card stl_card--prospect" title="Je m'inscris" data-id="0" target="_self">
+  <div class="stl_card-cover stl_card-cover-plus">
+    <picture>
+      <source srcset="/static/Particuliers/assets/campagne/1340984728-CardHpProspect_x1.webp" media="(max-width: 1024px)" type="image/webp">
+      <source srcset="/static/Particuliers/assets/campagne/1340984728-CardHpProspect_x1.jpg" media="(min-width: 1025px)" type="image/jpeg">
+      <img src="/static/Particuliers/assets/campagne/1340984728-CardHpProspect_x1.jpg" height="320" width="590" alt="">
+    </picture>
+  </div>
+  <div class="stl_card-body">
+    <div class="stl_card--prospect-content"><span class="stl_tag stl_tag--color-2">webinaire carbo mardi 12 mars 2024</span><h2 class="stl_title stl_title--2 textCardProsCG" style="color: rgb(255, 255, 255);">Découvrez l'offre de notre partenaire CARBO pour mesurer et réduire l'empreinte carbone de votre entreprise</h2>
+    </div>
+    <div class="stl_btn stl_btn--primarylight stl_btn--sm" data-id="1">
+      <span>Je m'inscris</span>
+    </div>
+  </div>
+  </a>
+  </div>
+  </div>
             <!-- CONTENU DEF -->
-            <div id="559b8c87a377bd8a28fdea85103fe7a9-345-contenu_defaut" class="contenu_defaut" style="display: none">
-              <a href="{{ route('login') }}" aria-label="Lire l'article semaine impact positif (Nouvel onglet)" onclick="bddfTms.trackEvent( this, 'click', {event_name : 'home::vignettes::evenement::semaine-de-l-impact-positif::clic-sur-en-savoir-plus'});" class="stl_card stl_card--prospect" title="La semaine de l'impact positif" data-id="0" target="_self">
-                <div class="stl_card-cover stl_card-cover-plus">
-                  <picture>
-                    <source srcset="{{ asset("assets/images/1065043970-CardHpProspect_x1.webp")}}" media="(max-width: 1024px)" type="image/webp">
-                    <source srcset="{{ asset("assets/images/1065043970-CardHpProspect_x1.jpg")}}" media="(min-width: 1025px)" type="image/jpeg">
-                    <img src="{{ asset("assets/images/1065043970-CardHpProspect_x1.jpg")}}" height="320" width="590" alt="">
-                  </picture>
-                </div>
-                <div class="stl_card-body">
-                  <div class="stl_card--prospect-content">
-                    <span class="stl_tag stl_tag--color-2">evenement</span>
-                    <h2 class="stl_title stl_title--2 textCardProsCG" style="color: rgb(255, 255, 255)">
-                      Faire grandir l'idée d'un avenir durable lors de la Semaine
-                      de l'Impact Positif
-                    </h2>
-                  </div>
-                  <div class="stl_btn stl_btn--primarylight stl_btn--sm" data-id="1">
-                    <span>En savoir plus</span>
-                  </div>
-                </div>
-              </a>
-            </div>
+
           </div>
           <script>
             var dcaZones = dcaZones || [];
@@ -186,30 +74,28 @@
         <!-- CARD2 -->
         <div class="stl_grid_col stl_grid_col-xs-12 stl_grid_col-md-6">
           <div class="dca_emplacement dca_card-prospect">
-            <div id="559b8c87a377bd8a28fdea85103fe7a9-344" data-dca-id="559b8c87a377bd8a28fdea85103fe7a9" data-dca-zoneid="344"></div>
+            <div id="559b8c87a377bd8a28fdea85103fe7a9-344" data-dca-id="559b8c87a377bd8a28fdea85103fe7a9" data-dca-zoneid="344"><div class="js-revive-btn" data-componentidentification="pack_solaire-CARDCLIENT" data-pub-campaign="5_des_experts_pack_solaire_202402" data-pub-category="campagne">
+  <a href="{{ route('login') }}" onclick="" class="stl_card stl_card--prospect" title="Regarder la vidéo" data-id="0" target="_self">
+  <div class="stl_card-cover stl_card-cover-plus">
+    <picture>
+      <source srcset="/static/Particuliers/assets/campagne/ENT-pack-solaire-marie-CardHpProspect_x1.webp" media="(max-width: 1024px)" type="image/webp">
+      <source srcset="/static/Particuliers/assets/campagne/ENT-pack-solaire-marie-CardHpProspect_x1.jpg" media="(min-width: 1025px)" type="image/jpeg">
+      <img src="/static/Particuliers/assets/campagne/ENT-pack-solaire-marie-CardHpProspect_x1.jpg" height="320" width="590" alt="">
+    </picture>
+  </div>
+  <div class="stl_card-body">
+    <div class="stl_card--prospect-content">
+      <span class="stl_tag stl_tag--color-2">5' des experts</span><h2 class="stl_title stl_title--2 textCardProsCG" style="color: rgb(255, 255, 255);">Réduire la facture énergétique de son entreprise</h2>
+    </div>
+    <div class="stl_btn stl_btn--primarylight stl_btn--sm" data-id="1">
+      <span>Regarder la vidéo</span>
+    </div>
+  </div>
+  </a>
+  </div>
+  </div>
             <!-- CONTENU DEF -->
-            <div id="559b8c87a377bd8a28fdea85103fe7a9-344-contenu_defaut" class="contenu_defaut" style="display: none">
-              <a href="{{ route('login') }}" onclick="bddfTms.trackEvent( this, 'click', {event_name : 'home::vignettes::5-des-experts::lutter-efficacement-contre-la-fraude-en-entreprise::clic-sur-regarder-la-video'});" class="stl_card stl_card--prospect" title="Regarder la vidéo" data-id="0" target="_self">
-                <div class="stl_card-cover stl_card-cover-plus">
-                  <picture>
-                    <source srcset="{{ asset("assets/images/fraude-adrien-CardHpProspect_x1.webp")}}" media="(max-width: 1024px)" type="image/webp">
-                    <source srcset="{{ asset("assets/images/fraude-adrien-CardHpProspect_x1.jpg")}}" media="(min-width: 1025px)" type="image/jpeg">
-                    <img src="{{ asset("assets/images/fraude-adrien-CardHpProspect_x1.jpg")}}" height="320" width="590" alt="">
-                  </picture>
-                </div>
-                <div class="stl_card-body">
-                  <div class="stl_card--prospect-content">
-                    <span class="stl_tag stl_tag--color-2">5' des experts</span>
-                    <h2 class="stl_title stl_title--2 textCardProsCG" style="color: rgb(255, 255, 255)">
-                      Lutter efficacement contre la fraude en entreprise
-                    </h2>
-                  </div>
-                  <div class="stl_btn stl_btn--primarylight stl_btn--sm" data-id="1">
-                    <span>Regarder la vidéo</span>
-                  </div>
-                </div>
-              </a>
-            </div>
+
           </div>
 
           <script>
